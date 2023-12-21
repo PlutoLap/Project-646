@@ -1,0 +1,48 @@
+project ---------
+project ---------
+project --646----
+XS:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Create 646</title>
+  <style>
+    body {
+      background-color: #000;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .youtube-button {
+      background-color: #FF0000;
+      color: #fff;
+      padding: 15px 30px;
+      font-size: 24px;
+      font-weight: bold;
+      text-decoration: none;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      transition: background-color 0.3s ease;
+    }
+
+    .youtube-button:hover {
+      background-color: #CC0000;
+    }
+  </style>
+</head>
+<body>
+  <a href="#" id="create646" class="youtube-button">Create 646</a>
+
+  <script>
+    // JavaScript to handle button click and redirect
+    document.getElementById('create646').addEventListener('click', function(event) {
+      event.preventDefault(); // Prevent default link behavior
+      window.location.href = 'https://www.google.com';
+    });
+  </script>
+</body>
+</html>
